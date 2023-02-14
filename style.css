@@ -126,14 +126,10 @@ section .content p {
 .button:hover {
   background-color: var(--brand-dark);
   transition: background 0.8s;
-
-  box-shadow: 0px 15px 20px var(--brand-dark);
-  transform: translateY(-0.435rem);
-  transition: 0.8s;
 }
 
 .button:active {
-  transform: translateY(-1.6rem);
+  transform: translateY(-.2rem);
 }
 
 .social-links {
